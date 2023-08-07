@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import bpy
-from io_scene_gltf2.blender.exp.gltf2_blender_gather_texture_info import (
+from io_scene_gltf2.blender.exp.material.gltf2_blender_gather_texture_info import (
     gather_material_normal_texture_info_class,
     gather_material_occlusion_texture_info_class, gather_texture_info)
 from io_scene_gltf2.blender.imp.gltf2_blender_image import BlenderImage
